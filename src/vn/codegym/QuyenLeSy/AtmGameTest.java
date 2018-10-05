@@ -31,7 +31,7 @@ public class AtmGameTest {
                     case 2:
                         System.out.println("Enter an amount to withdraw: ");
                         int amount = scanner.nextInt();
-                        atmGames[id].
+                        AtmGame.withdraw(amount);
                     case 3:
                     case 4:
                         System.exit(0);
